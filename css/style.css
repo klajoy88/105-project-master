@@ -1,16 +1,124 @@
-section {
-	width: 800px;
-	margin: 100px auto;
+html {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
 }
-section h1,
-section p {
+body {
+    font: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding: 0 2em;
+    font-size: 1.25em;
+    height: 100%;
+    color: #fff;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+		margin-bottom: 20px;
+}
+
+h1{
+	width: 100%;
+	font-size: 3em;
+	color: #222222;
+}
+
+h2 {
+	display: inline;
+	font-size: 1.5em;
+	color: slategray;
 	text-align: center;
-	color: #454545;
 }
-section h1 {
-	font: 32px 'Open Sans';
-	font-weight: bold;
+
+
+.main{
+	width: 100%;
+	height: auto;
+	overflow:auto;
+	margin: auto;
+	background-color: #ccc;
 }
-section p {
-	font: 16px 'Open Sans';
+
+
+
+
+#robo-img {
+	width: 30%;
+	float:left;
+	margin-right: 20px;
+}
+
+#summer-info {
+	width: 40%;
+	float:right;
+}
+
+h2 {
+	font-size: 1.5em;
+	color: darkslategray;
+	text-align: center;
+}
+
+p {
+	font-size: 1em;
+	color: slategrey;
+	text-align: left;
+}
+
+
+.flex-container {
+	clear: both;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-flow: row wrap;
+	justify-content: space-between;
+
+  -webkit-flex-flow: row wrap;
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+}
+
+.flex-item {
+	clear:both;
+	width: 30%;
+	height: auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding: 10px;
+
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+}
+
+h2 {
+	font-size: 1.3em;
+	color: darkslategray;
+}
+
+p span {
+	font-size: 1.2em;
+	color: darkslategray;
+	text-align: center;
+}
+
+p {
+	clear: both;
+	font-size: 1em;
+	color: slategray;
+	text-align: left;
+}
+
+#morning-minutes {
+	border-right: 1px solid gray;
+}
+
+#passion-project {
+	border-left: 1px solid gray;
 }
